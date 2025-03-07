@@ -117,16 +117,16 @@ mymap.on('click', function(e) {
 });
 
 //L.marker([Y,X], {icon: customIcon(1)}).addTo(Icons["Example"]).bindPopup("I am here.");
-L.marker(["3740.00","1928.00"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3740.00, 1928.00");
-L.marker(["3742.99","1970.79"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3742.99, 1970.79");
-L.marker(["3791.53","2015.36"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3791.53, 2015.36");
-L.marker(["3729.77","1885.77"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3729.77, 1885.77");
-L.marker(["3741.76","1863.64"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3741.76, 1863.64");
-L.marker(["3716.68","1818.68"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3716.68, 1818.68");
-L.marker(["3702.86","1797.86"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3702.86, 1797.86");
-L.marker(["3688.22","1805.65"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3688.22, 1805.65");
-L.marker(["3646.58","1734.02"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3646.58, 1734.02");
-L.marker(["3841.02","1982.26"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3841.02, 1982.26");
-L.marker(["3770.62","1819.68"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3770.62, 1819.68");
-L.marker(["3730.99","1770.58"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3730.99, 1770.58");
-L.marker(["3742.99","1970.79"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3742.99, 1970.79");
+L.marker(["3740.00","1928.00"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3740.00, 1928.00");//1
+L.marker(["3742.99","1970.79"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3742.99, 1970.79");//2
+L.marker(["3791.53","2015.36"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3791.53, 2015.36");//3
+L.marker(["3729.77","1885.77"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3729.77, 1885.77");//4
+L.marker(["3741.76","1863.64"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3741.76, 1863.64");//5
+L.marker(["3716.68","1818.68"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3716.68, 1818.68");//6
+L.marker(["3702.86","1797.86"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3702.86, 1797.86");//7
+L.marker(["3688.22","1805.65"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3688.22, 1805.65");//8
+L.marker(["3646.58","1734.02"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3646.58, 1734.02");//9
+L.marker(["3841.02","1982.26"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3841.02, 1982.26");//10
+L.marker(["3770.62","1819.68"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3770.62, 1819.68");//11
+L.marker(["3730.99","1770.58"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3730.99, 1770.58");//12
+L.marker(["3742.99","1970.79"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3742.99, 1970.79");//13
