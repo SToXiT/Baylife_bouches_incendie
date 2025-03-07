@@ -1,7 +1,7 @@
 const center_x = 117.3;
 const center_y = 172.8;
 const scale_x = 0.02072;
-const scale_y = 0.0205;
+const scale_y = 0.02059;
 
 CUSTOM_CRS = L.extend({}, L.CRS.Simple, {
     projection: L.Projection.LonLat,
@@ -117,4 +117,16 @@ mymap.on('click', function(e) {
 });
 
 //L.marker([Y,X], {icon: customIcon(1)}).addTo(Icons["Example"]).bindPopup("I am here.");
-L.marker([3761,1928], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup("I am here.");
+L.marker(["3740.00","1928.00"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3740.00, 1928.00");
+L.marker(["3742.99","1970.79"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3742.99, 1970.79");
+L.marker(["3791.53","2015.36"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3791.53, 2015.36");
+L.marker(["3729.77","1885.77"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3729.77, 1885.77");
+L.marker(["3741.76","1863.64"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3741.76, 1863.64");
+L.marker(["3716.68","1818.68"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3716.68, 1818.68");
+L.marker(["3702.86","1797.86"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3702.86, 1797.86");
+L.marker(["3688.22","1805.65"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3688.22, 1805.65");
+L.marker(["3646.58","1734.02"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3646.58, 1734.02");
+L.marker(["3841.02","1982.26"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3841.02, 1982.26");
+L.marker(["3770.62","1819.68"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3770.62, 1819.68");
+L.marker(["3730.99","1770.58"], {icon: customIcon(2)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3730.99, 1770.58");
+L.marker(["3742.99","1970.79"], {icon: customIcon(3)}).addTo(Icons["Borne Incendie"]).bindPopup(" GPS: 3742.99, 1970.79");
